@@ -1,0 +1,148 @@
+body{
+    background-image:url(thisone.jpg);
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+    
+    
+}
+
+.tut{
+    align-self: center;
+}
+
+img{
+    border-style: groove;
+    border-radius: 10%;
+    border-color: #F8CF2D;
+    border-width: 2px;
+}
+
+h1{
+    color: #22713B;
+    text-shadow: 1px 1px 2px #F79AB7;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+table{
+    border-style: groove;
+    border-radius: 10%;
+    border-color: #F8CF2D;
+    border-width: 2px;
+    background: #F7F6E8;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+tr{
+    color: #F79AB7;
+    
+}
+
+button{
+    color: #22713B;
+    background: #F7F6E8;
+    padding: 1rem 2rem;
+    border-radius: 50%;
+    border-color: #F8CF2D;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-style: groove;
+    font-weight: bold;
+}
+
+.btn{
+    align-self: center;
+}
+
+ul{
+    border-style: groove;
+    border-radius: 10%;
+    border-color: #F8CF2D;
+    border-width: 2px;
+    background: #F7F6E8;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    list-style: none;
+}
+
+li{
+    color: #F79AB7;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #22713B;
+}
+
+.seccion-contacto{
+    display: flex;
+    
+
+}
+
+form{
+    width: 25%;
+    margin: 0.625em;  
+}
+
+
+
+label{
+        font-size: 1rem;
+        color: #22713B;
+        padding: 0.25em;
+        margin: 0.125em;
+        font-weight: bold;
+}
+
+input{
+    margin-bottom: 0.625em;
+    border: 2px solid #F8CF2D;
+    border-style: groove;
+    padding: 6px;
+    border-radius: 35%;
+
+}
+
+textarea{
+    border: 2px solid #F8CF2D;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+::placeholder{
+    color: #F79AB7;
+}
+
+.divcontacto{
+    border: 2px #F8CF2D;
+    border-style: groove;
+    border-radius: 10%;
+    background-color: #F7F6E8;
+    padding: 2rem;
+
+}
+
+.h1-contacto{
+    font-size: 70px;
+}
+
+.enviar-mensaje{
+    background: #F7F6E8;
+    color: #22713B;
+    padding: 8px;
+    font-weight: bold;  
+}
+
+.enviarbtn{
+    display: flex;
+    justify-content: center;
+}
